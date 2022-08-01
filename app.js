@@ -15,8 +15,8 @@ app.get("/", function(req, res) {
 });
  
 client.setConfig({
-  apiKey: "0ef19c39a14accc36c3a90498410d7d6-us9",
-  server: "us9",
+  apiKey: "0ef19c39a14accc36c3a90498410d7d6-us9", //your API Key
+  server: "us9", // your server
 });
  
 app.post("/", function(req, res) {
